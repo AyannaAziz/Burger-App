@@ -3,6 +3,7 @@ const burger = require("../models/burger.js")
 
 var router = express.Router();
 
+//Still need to add code so that when clicked the burger changes state from "not devoured" to "devoured"
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
