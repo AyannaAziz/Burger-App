@@ -4,8 +4,8 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "",
-    database: "day_planner_db"
+    password: "kitty123",
+    database: "burgers_db"
   });
   
   connection.connect(function(err) {
@@ -18,4 +18,3 @@ var connection = mysql.createConnection({
   });
 
   module.exports = connection;
-  
